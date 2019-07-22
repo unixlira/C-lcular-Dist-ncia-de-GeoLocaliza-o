@@ -1,3 +1,3 @@
 # Calcular-Distancia-de-GeoLocalizacao
 
-Cálculo entre locais feito em  PHP de Latitude e Longitude.
+Cálculo entre locais de Latitude e Longitude feito em  PHP.
