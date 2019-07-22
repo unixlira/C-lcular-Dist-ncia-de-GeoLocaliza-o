@@ -1,7 +1,7 @@
 <?php
 
 
-echo '<center><h1 style="font-weigth:bold" class="text-primary mt-5">Resultados</h1></center><br><br><br><br>';
+echo '<center><h1 style="font-weigth:bold" class="text-primary mt-5">Resultado</h1></center><br><br><br><br>';
 
 
 function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
@@ -50,25 +50,13 @@ function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
             </head>
             <body>
         <center>
-            <div class="container">
-                        <div class="col-md-6">
+                    <div class="container">
+                        <div class="col-md-4">
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title text-center mb-5 text-primary">Distância</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" value="' . $distance . '">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><br>
-                    <div class="container">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center mb-5 text-primary">Distância em KM</h5>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" value="' . round($distance, 2) . ' Km">
+                                        <span class="text-center">' . round($distance) . '&nbsp;KM </span>
                                     </div>
                                 </div>
                             </div>
